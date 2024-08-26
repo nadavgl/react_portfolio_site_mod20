@@ -10,10 +10,9 @@ function Footer() {
     return (
         <footer style={footerStyles} className="row justify-between align-center">
             <p>Created by Nadav Glikshtern</p>
-            <p>Rutgers Class</p>
+            <p>&copy; 2024 Rutgers Bootcamp</p>
         </footer>
     )
-
 }
 
 export default Footer

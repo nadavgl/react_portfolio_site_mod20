@@ -6,7 +6,8 @@ import Footer from './components/Footer'
 
 import Contact from './pages/Contact'
 import About from './pages/About'
-import Home from './pages/Home'
+import Portfolio from './pages/Portfolio'
+import Resume from './pages/Resume'
 import NotFound from './pages/NotFound'
 
 
@@ -19,9 +20,10 @@ function App() {
       <Header title={title} />
       <main className='flex-1'>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<NotFound/>}/>
         </Routes>
       </main>
